@@ -1,0 +1,24 @@
+html {
+    background-color: g;
+}
+
+.bg-light {
+    background-color: cornflowerblue !important;
+    color: cornsilk;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 5px;
+    text-align: center;
+}
