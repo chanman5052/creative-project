@@ -1,31 +1,59 @@
-body {
-    background-color: rgb(241, 234, 234);
+.homepage{
+    background-color: #CEF0F9;
+    height: 100%;
+    overflow: auto;
 }
-
-.bg-light {
-    background-color: cornflowerblue !important;
-    color: cornsilk;
+html, body {
+    height: 100% !important;
 }
-
-img {
-    display: block;
-    margin: 0 auto;
+#nav {
+    background-color: #065c72 !important;
 }
-
-h1 {
-    font-family: 'Noto Sans JP', sans-serif;
-    text-align: center;
-
+ul li a{
+    color: white;
 }
-
-p {
-    font-family: 'Noto Sans JP', sans-serif;
-    margin: 24px 24px auto;
-    text-align: center;
+.homepage h1 {
+    margin-top: 200px;
+    
+    margin-left: 325px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+    border:5px solid black;
+    width: 50%
 }
-
+.home-text {
+    margin-left: 390px;
+    margin-bottom: 300px;
+}
+footer h3 {
+    margin-left: 500px !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.pray {
+    margin-left: 525px;
+}
 footer {
-    text-align: center;
-    margin-top: 24px;
+    background-color: #065c72 !important;
+}
+#know {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pray {
+    margin-bottom: 100px;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#box {
+    flex: 0 1 30%;
+    margin-bottom: 100px;
+}
+footer h2 {
+    color: white;
 }
 
